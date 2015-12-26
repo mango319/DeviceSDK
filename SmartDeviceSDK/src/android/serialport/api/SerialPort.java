@@ -44,7 +44,7 @@ public class SerialPort {
 		this.serialportDataReceived = _serialportDataReceived;
 	}
 
-	public boolean RootCommand(String command) {
+	private boolean RootCommand(String command) {
 		Process process = null;
 		DataOutputStream os = null;
 		try {
