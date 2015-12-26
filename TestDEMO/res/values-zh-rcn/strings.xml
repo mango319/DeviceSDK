@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">测试程序</string>
+    <string name="action_about">设备信息</string>
+    <string name="action_keypress">按键测试</string>
+    
+    <!-- 打印机 -->
+    <string name="opendevice">打开串口</string>
+    <string name="closedevice">关闭串口</string>
+     <string name="openpic">打开图片</string>
+    <string name="printpic">打印图片</string>
+    <string name="qrcode">生成二维码</string>
+    <string name="barcode">生成条码</string>
+    <string name="wordtopic">文字转图片</string>
+    <string name="timing">定时打印</string>
+    <string name="print">打印</string>
+    <string name="str_printunicode">打印 Unicode</string>
+    <string name="str_cannotcreatebar">不能创建条码</string>
+    <string name="sendsuccess">发送成功!</string>
+    <string name="camera">拍照</string>
+    <string name="hex">16进制显示</string>
+    
+    <string name="str_printer_state">状态</string>
+    <string name="str_printer_printing">正在打印</string>
+    <string name="str_printer_lowpower">低电压</string>
+    <string name="str_printer_nopaper">缺纸</string>
+    <string name="str_printer_bufferfull">缓冲区满</string>
+    <string name="str_printer_buffernull">缓冲区空</string>
+    <string name="str_printer_hightemperature">温度过高</string>
+    <!-- 打印机 -->
+    
+    <!-- 二代身份证 -->
+    <string name="sdtname">姓名:</string>
+    <string name="sdtsex">性别:</string>
+    <string name="sdtnation">民族:</string>
+    <string name="sdtbirthday">出生:</string>
+    <string name="sdtaddress">住址:</string>
+    <string name="sdtpidno">公民身份号码:</string>
+    <string name="sdtgrantdept">发证机关:</string>
+    <string name="sdtuserlife">有效期限:</string>
+    <string name="sdtreadcard">读卡</string>
+    <string name="sdtexit">退出</string>
+    <string name="sdtstatus">状态:</string>
+    <string name="pid_message">信息 </string>
+    <string-array name="pid_array"></string-array>
+	<!-- 二代身份证 -->
+	
+	<!-- 串口工具 -->
+	<string name="send">发送</string>
+    <string name="autosend">自动发送</string>
+    <string name="error_configuration">请正确配置您的串口号和波特率</string>
+    <string name="error_security">无法进行串口读写操作</string>
+    <string name="error_unknown">串口打开失败.</string>
+    <string name="selectserialport">请选择串口号</string>
+    <string name="currentserialport">当前串口号为:</string>
+    <string name="selectbaudrate">请选择波特率</string>
+    <string name="currentbaudrate">当前波特率为:</string>
+    <string name="receivebuf">接收数据：</string>
+    <string name="sendbuf">发送数据：</string>
+    <string name="openpower">打开电源</string>
+    <string name="closepower">关闭电源</string>
+    <string name="openautoread">打开自动读</string>
+    <string name="closeautoread">关闭自动读</string>
+    <string name="newline">发送新行</string>
+	<!-- 串口工具 -->
+	
+</resources>

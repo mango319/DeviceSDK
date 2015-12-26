@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartdevice.testd"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    <!-- 允许应用程序写入外部存储器 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <!-- 联网权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取机型信息权限 -->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name="android.serialport.api.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.smartdevice.testd.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.smartdevice.testd.PrinterActivity" >
+        </activity>
+        <activity android:name="com.smartdevice.testd.ScannerActivity" >
+        </activity>
+        <activity android:name="com.smartdevice.testd.IDCardActivity" >
+        </activity>
+        <activity android:name="com.smartdevice.testd.PSAMActivity" >
+        </activity>
+        <activity android:name="com.smartdevice.testd.CameraScannerActivity" >
+        </activity>
+        <activity android:name="com.smartdevice.testd.FingerActivity" >
+        </activity>
+        <activity android:name="com.smartdevice.testd.MagneticCardActivity" >
+        </activity>
+        <activity android:name="com.smartdevice.testd.SerialPortActivity" >
+        </activity>
+        <activity android:name="com.smartdevice.testd.SerialPortSettingActivity" >
+        </activity>
+        <activity android:name="com.smartdevice.testd.DeviceInfoActivity" >
+        </activity>
+        <activity
+            android:name="com.smartdevicesdk.camerascanner.ZBarScannerActivity"
+            android:screenOrientation="landscape" />
+        
+        <activity android:name="com.smartdevice.testd.KeyPressActivity" >
+        </activity>
+    </application>
+
+</manifest>

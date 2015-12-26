@@ -1,0 +1,196 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+         <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Port:" />
+
+        <Spinner
+            android:id="@+id/spinner_serialport_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fp Count :"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:entries="@array/FpCount"
+            android:prompt="@string/prompt_planets" />
+
+    </LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="0.2" >
+
+            <Button
+                android:id="@+id/btnOpenDevice"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Open"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/textTemplateNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text="ID :"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editUserID"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.8"
+                    android:background="#63a7ff"
+                    android:editable="true"
+                    android:inputType="number"
+                    android:text="1" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnEnroll"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Enroll"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnIdentify"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Identify"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnGetEmptyID"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Get Empty ID"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnRemoveTemplate"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Remove Tmpl"
+                android:textSize="15sp" />
+            			
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1" >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnCloseDevice"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Close"
+                android:textSize="15sp" />
+            		
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Cancel"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1" >
+
+            </LinearLayout>
+            
+
+
+            <Button
+                android:id="@+id/btnVerify"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Verify"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnGetEnrollCount"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="GetEnrollCount"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnCaptureImage"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Capture Image"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnRemoveAll"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Remove All"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+	<TextView
+	    android:id="@+id/txtStatus"
+	    android:layout_width="match_parent"
+	    android:layout_height="80dp"
+	    android:text="Please open device!"
+	    android:textSize="15sp" />
+
+	<ImageView
+	    android:id="@+id/ivImageViewer"
+	    android:layout_width="200dp"
+	    android:layout_height="200dp"
+	    android:layout_marginTop="4dp"
+	    android:adjustViewBounds="false"
+	    android:background="#ff99aa" />
+
+</LinearLayout>

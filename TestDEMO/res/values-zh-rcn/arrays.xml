@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cmd">
+        <item>检测型号,1B 2B</item>
+        <item>水平制表,09</item>
+        <item>换行,0A</item>
+        <item>打印当前存储内容,0D</item>
+        <item>初始化打印机,1B 40</item>
+        <item>允许下划线打印,1C 2D 01</item>
+        <item>禁止下划线打印,1C 2D 00</item>
+        <item>允许粗体打印,1B 45 01</item>
+        <item>禁止粗体打印,1B 45 00</item>
+        <item>选择字体：ASCII(12*24) 汉字（24*24）,1B 4D 00</item>
+        <item>选择字体：ASCII(8*16)  汉字（16*16）,1B 4D 01</item>
+        <item>字符正常：  不放大,1D 21 00</item>
+        <item>字符2倍高：纵向放大,1D 21 01</item>
+        <item>字符2倍宽：横向放大,1D 21 10</item>
+        <item>字符2倍整体放大,1D 21 11</item>
+        <item>左对齐,1B 61 00</item>
+        <item>居中对齐,1B 61 01</item>
+        <item>居右对齐,1B 61 02</item>
+        <item>页进纸,0C</item>
+    </string-array>
+</resources>    

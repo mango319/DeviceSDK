@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestDEMO</string>
+    <string name="action_about">About</string>
+    <string name="action_keypress">KeyTest</string>
+
+    <!-- printer -->
+    <string name="opendevice">Open Device</string>
+    <string name="closedevice">Close Device</string>
+     <string name="openpic">Open Picture</string>
+    <string name="printpic">Print Picture</string>
+    <string name="qrcode">QR CODE</string>
+    <string name="barcode">BAR CODE</string>
+    <string name="timing">Timed Print</string>
+    <string name="print">Print</string>
+    <string name="str_printunicode">Print Unicode</string>
+    <string name="wordtopic">Text to image</string>
+
+    <string name="str_printer_state">STATE</string>
+    <string name="str_printer_printing">Printing</string>
+    <string name="str_printer_lowpower">Low power</string>
+    <string name="str_printer_nopaper">No paper</string>
+    <string name="str_printer_bufferfull">Buffer full</string>
+    <string name="str_printer_buffernull">Buffer null</string>
+    <string name="str_printer_hightemperature">High temperature</string>
+    <!-- printer -->
+    
+    <!-- IDCARD -->
+    <string name="sdtname">name:</string>
+    <string name="sdtsex">sex:</string>
+    <string name="sdtnation">nation:</string>
+    <string name="sdtbirthday">birth:</string>
+    <string name="sdtaddress">address:</string>
+    <string name="sdtpidno">number:</string>
+    <string name="sdtgrantdept">authorized by:</string>
+    <string name="sdtuserlife">expiration date:</string>
+    <string name="sdtreadcard">read</string>
+    <string name="sdtexit">exit</string>
+    <string name="sdtstatus">status:</string>
+    <string name="pid_message">info </string>
+    <string-array name="pid_array"></string-array>
+	<!-- IDCARD -->
+    
+    <!-- fingerprint -->
+    <string name="prompt_planets">Match Level</string>
+     <string-array name="FpCount">
+        <item>1700</item>
+        <item>2000</item>
+        <item>3000</item>
+    </string-array>
+    <!-- fingerprint -->
+    
+    <!-- SerialPort Tools -->
+    <string name="str_button_send">Send</string>
+    <string name="str_serialport_name">Serialport</string>
+    <string name="str_serialport_baud">Baud rate</string>
+    <string name="str_serialport_data">Data bit</string>
+    <string name="str_serialport_stop">Stop bit</string>
+    <string name="str_serialport_flowcontrol">Flow control</string>
+    <string name="str_serialport_check">Check type</string>
+    <string name="str_serialport_space">Space(ms)</string>
+    <string name="str_serialport_save">Save</string>
+    <string name="str_menu_serialport_set">Setting</string>
+    <string name="str_menu_serialport_clean">Clean Statistics</string>
+    <string name="str_menu_serialport_open">Open</string>
+    <string name="str_menu_serialport_close">Close</string>
+    <string name="str_serialport_hexrec">Hex</string>
+    <string name="str_serialport_hexsend">Hex</string>
+    <!-- SerialPort Tools-->
+    
+</resources>
